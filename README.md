@@ -54,6 +54,23 @@ La API fallaria al intentar conectarse porque Postgres aun no acepta conexiones.
 
 ## Evidencias
 - docker compose ps: 3 servicios corriendo (db healthy, api, pgadmin)
+![Servicio corriendo](image.png)
+
 - CRUD completo probado con curl (GET, POST, PUT, DELETE, 400, 404)
 - pgAdmin conectado mostrando la tabla users
 - Persistencia verificada: los datos sobreviven a docker compose down / up -d
+
+## docker compose ps 
+![alt text](image-3.png)
+
+## CRUD completo probado con curl
+![alt text](image-4.png)
+
+## pgAdmin conectado — tabla users
+![alt text](image-5.png)
+
+## Prueba de persistencia
+![alt text](image-6.png)
+
+
+
